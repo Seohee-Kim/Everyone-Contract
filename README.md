@@ -1,5 +1,5 @@
 # KoBERT Everyone's Contract & Django
-* 중고거래 리카르디안 계약서 생성 - 채팅 내 핵심어 자동추출 모델 및 장고 구성
+* 중고거래 리카르디안 계약서 생성 - 채팅 내 핵심어 자동추출 모델 및 테스트 페이지 구성
   
 * Overview  
 <img> </br></br>
