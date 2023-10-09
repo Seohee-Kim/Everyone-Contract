@@ -111,6 +111,21 @@
     
     ![my-image (3)](https://github.com/Seohee-Kim/KoBERT-EveryoneContract/assets/62201733/0667e015-1562-4870-97ea-a2791a26d1fb) </br></br>
 
-## 참고한 레퍼런스
+</br></br>
+## 피드백
+* Q. 제조사 모델 반영 가능한지?  
+* A. 한국어에 특화된 데이터 셋이 부재하므로 상업적 이용 가능한 데이터 셋이 필요, 직접 구축하거나 위키 참조할 필요 있음
+  
+* Q. 외래어 등 다양한 상품 이름을 인식 가능할지?  
+* A. 관련된 타겟 물품 모델링 학습을 진행 시 정확도 개선 가능
+  
+* Q. 가격 네고 시 정규표현식으로 물품의 가격을 캐치하는 것이 가능할지?  
+* A. 현재로서는 불가능 (아래 부연 설명)
+  
+​> 💡 부연 설명
+> 모델링 설계 단계부터 최종 승인 가격 캐치에 대한 고민이 많았는데, 그 중  한 가지 방법으로 가격 다음에 나오는 어절에 대한 감성 분석을 진행하여, 긍정일 경우에만 해당 가격을 최종 가격으로 캐치하는 방안을 생각했었는데 고도화하지 않아 실현하지 못함. 해당 질문은 가격 다음에 어떤 특정 어절을 정규표현식으로 캐치하여 최종 가격 판별 여부를 결정하는 거였는데, 마찬가지로 오타나 same meaning different expression 일 경우에 대한 가짓수에 대한 해결책이 없어 불가능하다고 답변
 
-* 
+</br></br>
+## 참고한 레퍼런스  
+* [https://deep-learning-study.tistory.com/568](https://github.com/wanasit/chrono)https://github.com/wanasit/chrono
+* https://velog.io/@dojun527/AWS-EC2-Django-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0
