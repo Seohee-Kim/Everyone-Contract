@@ -1,4 +1,4 @@
-# KoBERT Everyone's Contract & Django
+# Everyone's Contract with KoBERT 
 * 중고거래 리카르디안 계약서 생성
 * KoBERT를 활용한 채팅 내 핵심어 자동추출 모델 및 테스트 페이지 구성  
 * Overview(예정)  
